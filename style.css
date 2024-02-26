@@ -10,6 +10,14 @@ body {
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.gap {
+  gap: 4em;
+}
+
 .justify-content {
   justify-content: center;
 }
@@ -28,4 +36,49 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+/* Table */
+form {
+  font-size: 3rem;
+}
+
+form>div+div {
+  margin-top: .3em;
+}
+
+input {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.summary {
+  position: absolute;
+  border-bottom: 1px solid #030303;
+}
+
+#sum1 {
+  left: -200px;
+  top: -150px;
+}
+
+#sum3 {
+  left: -200px;
+  bottom: -150px;
+}
+
+#sum2 {
+  right: -200px;
+  top: -150px;
+}
+
+#sum4 {
+  right: -200px;
+  bottom: -150px;
 }

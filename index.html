@@ -7,12 +7,37 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="style.css">
+  <script src="/dist/20.js"></script>
 </head>
 
 <body>
-  <div class="h-100 w-100 flex justify-content items-center">
-    <h3 class="text-center">Hello</h3>
+  <div class="h-100 w-100 gap flex flex-column justify-content items-center">
+    <form class="">
+      <div class="relative">
+        <input id="input0" onchange="sum()" type="number" min="1" max="9" name="n1" />
+        <input id="input1" onchange="sum()" type="number" min="1" max="9" name="n2" />
+        <input id="input2" onchange="sum()" type="number" min="1" max="9" name="n3" />
+        <span class="summary" id="sum1">0</span>
+        <span class="summary" id="sum2">0</span>
+      </div>
+      <div class="relative">
+        <input id="input3" onchange="sum()" type="number" min="1" max="9" name="n4" />
+        <input id="input4" onchange="sum()" type="number" min="1" max="9" name="n5" />
+        <input id="input5" onchange="sum()" type="number" min="1" max="9" name="n6" />
+      </div>
+      <div class="relative">
+        <input id="input6" onchange="sum()" type="number" min="1" max="9" name="n7" />
+        <input id="input7" onchange="sum()" type="number" min="1" max="9" name="n8" />
+        <input id="input8" onchange="sum()" type="number" min="1" max="9" name="n9" />
+        <span class="summary" id="sum3">0</span>
+        <span class="summary" id="sum4">0</span>
+      </div>
+
+    </form>
+    <span id="sum45">Note</span>
+    <span id="sum98">Note</span>
   </div>
+  <script src="script3.js"></script>
 </body>
 
 </html>

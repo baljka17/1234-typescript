@@ -1,5 +1,5 @@
-interface Person {
-  name: String;
+interface Person1 {
+  name: string;
   age: number;
 }
 

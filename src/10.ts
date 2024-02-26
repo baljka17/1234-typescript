@@ -120,12 +120,12 @@ type Processor = {
   cpu: number;
   ram: number;
 }
-type Phone = {
+type Phone1 = {
   brand: string;
   serial: string;
 }
 
-type SmartPhone = Processor & Phone & {
+type SmartPhone = Processor & Phone1 & {
   digit: number;
   readonly imei: string; // === Readonly
 }
